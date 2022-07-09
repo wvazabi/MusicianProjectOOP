@@ -7,5 +7,9 @@
 
 import Foundation
 
-print("Hello, World!")
+let wvazabi = Musicians(name: "Enes", age: 26 , insturment: "Drum", type: .Drummer)
+
+let boss = ExtraMusician(name: "Enz" , age: 28, insturment: "Violet", type: .Vocalist)
+
+boss.sing()
 
